@@ -39,7 +39,7 @@ QQmlListProperty<Item> readonlyListProperty(const QObject *o, const QList<Item *
 
 /*!
     \qmltype Sensor
-//!    \instantiates QmlSensor
+//!    \nativetype QmlSensor
     \inqmlmodule QtSensors
     \since QtSensors 5.0
     \brief The Sensor element serves as a base type for sensors.
@@ -277,6 +277,21 @@ QBindable<QmlSensorReading*> QmlSensor::bindableReading() const
 }
 
 /*!
+    \qmlmethod bool Sensor::isFeatureSupported(feature)
+    \since QtSensors 6.7
+    Checks if a specific feature is supported by the backend.
+    Returns \c true if the \a feature is supported, and \c false otherwise.
+    For feature descriptions see \l {QSensor::Feature}.
+
+    Please see QSensor::isFeatureSupported for information.
+*/
+
+bool QmlSensor::isFeatureSupported(Feature feature) const
+{
+    return sensor()->isFeatureSupported(static_cast<QSensor::Feature>(feature));
+}
+
+/*!
     \qmlproperty Sensor::AxesOrientationMode Sensor::axesOrientationMode
     \since QtSensors 5.1
     This property holds the mode that affects how the screen orientation changes reading values.
@@ -474,7 +489,7 @@ void QmlSensor::updateReading()
 
 /*!
     \qmltype SensorReading
-//!    \instantiates QmlSensorReading
+//!    \nativetype QmlSensorReading
     \inqmlmodule QtSensors
     \since QtSensors 5.0
     \brief The SensorReading element serves as a base type for sensor readings.

@@ -1,3 +1,9 @@
+qt6-sensors (6.8.0-0deepin) UNRELEASED; urgency=medium
+
+  * New upstream release (6.8.0).
+
+ -- lichenggang <lichenggang@deepin.org>  Wed, 06 Nov 2024 11:11:55 +0800
+
 qt6-sensors (6.6.1-2) experimental; urgency=medium
 
   * Revert the resolution of the dh-exec-useless-usage Lintian info by using
