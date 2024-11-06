@@ -118,6 +118,7 @@ usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6SensorsQuick/Qt6SensorsQuickDependencies.
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6SensorsQuick/Qt6SensorsQuickTargets-none.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6SensorsQuick/Qt6SensorsQuickTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6SensorsQuick/Qt6SensorsQuickVersionlessTargets.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6SensorsQuick/Qt6SensorsQuickVersionlessAliasTargets.cmake
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Sensors.prl
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6Sensors.so
 usr/lib/${DEB_HOST_MULTIARCH}/libQt6SensorsQuick.prl
