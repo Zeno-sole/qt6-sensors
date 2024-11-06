@@ -130,3 +130,5 @@ usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6sensors_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/metatypes/qt6sensorsquick_none_metatypes.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/Sensors.json
 usr/lib/${DEB_HOST_MULTIARCH}/qt6/modules/SensorsQuick.json
+usr/lib/${DEB_HOST_MULTIARCH}/cmake/Qt6Sensors/Qt6SensorsVersionlessAliasTargets.cmake
+usr/lib/${DEB_HOST_MULTIARCH}/Qt6SensorsQuick/Qt6SensorsQuickVersionlessAliasTargets.cmake 
